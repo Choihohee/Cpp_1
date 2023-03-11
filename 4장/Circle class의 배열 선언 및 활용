@@ -14,10 +14,10 @@ double Circle::getArea() {
 	return 3.14*radius*radius;
 }
 int main() {
-	Circle circleArray[3]; 										// (1) Circle 객체 배열 생성
+	Circle circleArray[3];
 
 	// 배열의 각 원소 객체의 멤버 접근
-	circleArray[0].setRadius(10); 							// (2)
+	circleArray[0].setRadius(10);
 	circleArray[1].setRadius(20);
 	circleArray[2].setRadius(30);
 
